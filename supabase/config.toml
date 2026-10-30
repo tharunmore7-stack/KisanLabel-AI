@@ -1,0 +1,5 @@
+project_id = "kisanlabel-ai"
+
+[functions.gemini-analyze]
+verify_jwt = true
+entrypoint = "./functions/gemini-analyze/index.ts"
